@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hot Coffee ☕</title>
+
+  <!-- WhatsApp Preview -->
+  <meta property="og:title" content="Have a hot coffee ☕">
+  <meta property="og:description" content="This is for you ☕🔥">
+  <meta property="og:image" content="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      font-size: 40px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff9900, 0 0 20px #ff6600;
+      }
+      to {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff9900;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 10px;
+      opacity: 0.8;
+      animation: fadeIn 3s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 0.8;}
+    }
+
+    img {
+      width: 280px;
+      margin-top: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 165, 0, 0.6);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>☕ Have a Hot Coffee</h1>
+  <p>Made just for you with some Nescafe coffee powder! Enjoy. ❤️</p>
+
+  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Coffee Cup">
+
+</body>
+</html>
